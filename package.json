@@ -1,0 +1,38 @@
+{
+  "name": "array-chunk-by-firestore-size",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Chunk array of objects by their size firestore document",
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "array",
+    "chunk",
+    "json",
+    "split",
+    "separate",
+    "string",
+    "firestore",
+    "firestore-size",
+    "firestore-size-chunk"
+  ],
+  "repository": "https://github.com/PRAJINPRAKASH/array-chunk-by-firestore-size",
+  "files": [
+    "index.js"
+  ],
+  "author": "Prajin Prakash",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
+  },
+  "dependencies": {
+    "firestore-size": "2.0.7"
+  }
+}
